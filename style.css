@@ -1,0 +1,32 @@
+html, body {
+  font-family: Raleway, helvetica; }
+
+h1 {
+  font-size: 4em; }
+
+p {
+  font-size: 1.5em; }
+
+input, button {
+  font-size: 1.2em; }
+
+input {
+  border: 1px solid black; }
+
+button {
+  color: white;
+  border: 1px solid #52BAD5;
+  background-color: #52BAD5; }
+
+button:hover {
+  border: 1px solid #239AB9;
+  background-color: #239AB9; }
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 2em; }
+  p {
+    font-size: 1.2em; }
+  input, button {
+    font-size: 1em; }
+}
